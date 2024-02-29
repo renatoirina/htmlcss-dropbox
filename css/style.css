@@ -1,0 +1,18 @@
+/* controllo connessione link html - css
+body {
+    background-color: black;
+} */
+
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
