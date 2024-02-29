@@ -9,10 +9,97 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
     max-width: 100%;
 }
 
+/* HEADER */
+header {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+
+    /* DEBUG */
+    background-color: aqua;
+}
+
+/* MAIN */
+/* hero */
+.hero {
+    display: flex;
+    height: 820px;
+
+    /* DEBUG */
+    background-color: #b4d0e7;
+}
+
+/* business plan */
+.business-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 170rem;
+    width: 60%;
+
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+    .cards {
+
+    }
+
+    .enterprise {
+
+    }
+
+    .partner {
+
+    }
+
+    .operations {
+
+    }
+
+    .teams {
+
+    }
+
+.designit {
+    display: flex;
+    height: 650px;
+
+    /* DEBUG */
+    background-color: tomato;
+}
+
+.free-trial {
+    display: flex;
+    height: 400px;
+
+    /* DEBUG */
+    background-color: #b4d0e7;
+}
+
+.faq {
+    display: flex;
+    height: 750px;
+
+    /* DEBUG */
+    background-color:blue;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 600px;
+
+    /* DEBUG */
+    background-color: black;
+}
