@@ -25,13 +25,12 @@ a {
 header {
     display: flex;
     position: fixed;
-    height: 80px;
     width: 100%;
-    background-color: aqua;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 
     /* DEBUG */
     background-color: aqua;
@@ -60,6 +59,7 @@ header {
         text-align: center;
         margin: auto;
         padding: 25px;
+        color: black;
     }
 
     .button {
@@ -84,7 +84,6 @@ header {
         .button.blue:hover {
             background-color: #0056b3;
         }
-    
 
 
 /* MAIN */
@@ -92,10 +91,53 @@ header {
 .hero {
     display: flex;
     height: 820px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     /* DEBUG */
     background-color: #b4d0e7;
 }
+
+    .title {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .title > h1 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    .description-image {
+        display: flex;
+        width: 50%;
+    }
+
+    .description-image > .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    .description > p, .description > a {
+        padding-bottom: 2rem;
+    }
+
+    .description > .fa-solid {
+        font-size: 3rem;
+        z-index: 0;
+    }
+
+    .description-image > .image {
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 50%;
+    }
 
 /* business plan */
 .business-plan {
