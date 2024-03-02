@@ -33,7 +33,7 @@ header {
     z-index: 1;
 
     /* DEBUG */
-    background-color: aqua;
+    background-color: white;
 }
 
     .left {
@@ -145,16 +145,75 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    height: 170rem;
-    width: 60%;
+    width: 80%;
+    flex-direction: column;
 
     /* DEBUG */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
-    .cards {
-
+    .business-plan > .title {
+        padding-bottom: 60px;
     }
+
+    .title > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .invoicing {
+        display: flex;
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .invoicing input[type="radio"] {
+        display: none;
+    }
+    
+    .invoicing label {
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    
+    .invoicing label:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        margin-right: 5px;
+    }
+    
+    .invoicing input[type="radio"]:checked + label:before {
+        background-color: blue;
+    }
+
+    .card-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .card {
+        display: flex;
+        width: calc(100% / 3);
+        height: 100px;
+        border: 1px solid rgba(221, 221, 221, 0.623);
+    }
+    
+    .card:nth-child(1) {
+        margin-left: 30px;
+    }
+    
+    .card:nth-child(2) {
+        margin: 0 40px;
+    }
+    
+    .card:nth-child(3) {
+        margin-right: 30px;
+    }
+    
 
     .enterprise {
 
