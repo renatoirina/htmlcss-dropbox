@@ -85,11 +85,11 @@ header {
     color: white;
 }
 
-.card > .button.blue {
+.card>.button.blue {
     margin: 20px 20px 10px 20px
 }
 
-.enterprise-right > .button.blue {
+.enterprise-right>.button.blue {
     margin-top: 40px;
 }
 
@@ -126,7 +126,7 @@ header {
     padding-bottom: 20px;
 }
 
-.title > h1 {
+.title>h1 {
     font-size: 4rem;
     font-weight: 900;
 }
@@ -136,7 +136,7 @@ header {
     width: 50%;
 }
 
-.description-image > .description {
+.description-image>.description {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,24 +144,24 @@ header {
     width: 50%;
 }
 
-.description > p,
-.description > a,
-.description > a.button.blue {
+.description>p,
+.description>a,
+.description>a.button.blue {
     margin-bottom: 30px;
 }
 
-.description > p {
+.description>p {
     margin-top: 30px;
     width: 80%;
 }
 
-.description > .fa-solid {
+.description>.fa-solid {
     margin-top: 50px;
     font-size: 3rem;
     z-index: 0;
 }
 
-.description-image > .image {
+.description-image>.image {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,11 +182,11 @@ header {
     /* background-color: blueviolet; */
 }
 
-.business-plan > .title {
+.business-plan>.title {
     padding-bottom: 60px;
 }
 
-.title > h2 {
+.title>h2 {
     margin-top: 100px;
     font-size: 2rem;
     font-weight: bold;
@@ -244,15 +244,15 @@ header {
     border-bottom: 1px solid rgba(119, 114, 114, 0.623);
 }
 
-.fa-user > .title-card,
-.fa-users > .title-card,
-.fa-building > .title-card {
+.fa-user>.title-card,
+.fa-users>.title-card,
+.fa-building>.title-card {
     font-weight: normal;
     font-size: 1rem;
     color: rgb(63, 63, 63);
 }
 
-.card > .plan-type {
+.card>.plan-type {
     text-align: left;
     font-weight: bold;
     font-size: 1.5rem;
@@ -262,7 +262,7 @@ header {
 
 }
 
-.card > .price {
+.card>.price {
     text-align: left;
     font-weight: bold;
     font-size: 0.9rem;
@@ -270,7 +270,7 @@ header {
     padding-left: 20px;
 }
 
-.card > .duration {
+.card>.duration {
     text-align: left;
     font-weight: normal;
     font-size: 0.9rem;
@@ -287,7 +287,7 @@ header {
     padding-left: 20px;
 }
 
-.fa-check > .checklist {
+.fa-check>.checklist {
     font-weight: normal;
     font-size: 1rem;
     color: black;
@@ -298,10 +298,10 @@ header {
 .share {
     font-weight: normal;
     font-size: 0.95rem;
-    
+
 }
 
-.card > .padding {
+.card>.padding {
     padding: 20px;
 }
 
@@ -353,7 +353,7 @@ a.a-white {
     padding-top: 20px;
 }
 
-.container-enterprise > .i {
+.container-enterprise>.i {
     border: 1px solid rgba(119, 114, 114, 0.623);
 }
 
@@ -369,7 +369,7 @@ a.a-white {
     padding-bottom: 20px;
 }
 
-.enterprise-left > .plan-type {
+.enterprise-left>.plan-type {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -691,7 +691,7 @@ footer {
 }
 
 .link-section>.dropbox-section-ft {
-    padding-left: 200px;
+    padding-left: 400px;
 }
 
 .title-footer-section {
@@ -710,21 +710,21 @@ footer {
 .footer-divider {
     width: 150px;
     border: 1px solid rgb(156, 156, 156);
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
 .language-selection {
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
-.language-selection > span {
+.language-selection>span {
     padding-left: 10px;
     padding-right: 5px;
 }
 
-.language-selection > .fa-solid.fa-caret-up {
+.language-selection>.fa-solid.fa-caret-up {
     cursor: pointer;
 }
