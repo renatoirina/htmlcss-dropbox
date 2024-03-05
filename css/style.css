@@ -366,7 +366,7 @@ header {
                 padding-bottom: 30px;
             }
 
-    .title-operation, .title-teams {
+    .title-operation, .title-teams, .title-faq {
         font-size: 2.5rem;
         padding-top: 200px;
     }
@@ -522,13 +522,82 @@ header {
         margin: auto;
     }
     
-.faq {
+.faq-container {
     display: flex;
-    height: 750px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     /* DEBUG */
-    background-color:blue;
+    /* background-color:blue; */
 }
+
+    .faq-container > h2 {
+        padding-bottom: 50px;
+        padding-right: 500px;
+        width: auto;
+    }
+
+    .faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .questions {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        width: auto;
+        position: relative;
+        transition: margin-bottom 0.3s ease;
+    }
+    
+    .questions::after {
+        content: 'lorem';
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        display: none;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .questions:hover::after {
+        display: block;
+        opacity: 1;
+    }
+    
+    .questions:hover {
+        margin-bottom: 40px;
+    }
+
+        .questions:nth-child(3) {
+            border-bottom: 1px solid black;
+            margin-bottom: 150px;
+        }
+
+            .question {
+                font-size: 1.10rem;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+        .fa-solid.fa-chevron-down {
+            padding-left: 200px;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
 
 /* FOOTER */
 
