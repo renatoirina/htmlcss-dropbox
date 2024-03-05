@@ -89,6 +89,16 @@ header {
             background-color: #0056b3;
         }
 
+        .button.white {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+    
+        .button.white:hover {
+            background-color: rgb(209, 209, 209);
+        }
+
 
 /* MAIN */
 /* hero */
@@ -305,7 +315,6 @@ header {
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
-                padding-left: 20px;
                 padding-bottom: 20px;
             }
             
@@ -329,8 +338,33 @@ header {
     
 
     .partner {
-
+        padding-top: 200px;
+        display: flex;
+        width: calc(100% - 200px);
     }
+    
+        .partner-left {
+            width: calc(100% / 2);
+        }
+
+        .partner-right {
+            display: flex;
+            width: calc(100% / 2);
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: center;
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+
+            .partner-right > h2 {
+                padding-bottom: 30px;
+            }
+
+            .partner-right > span {
+                padding-bottom: 30px;
+            }
 
     .operations {
 
