@@ -497,12 +497,31 @@ header {
 
 .free-trial {
     display: flex;
+    width: 100%;
     height: 400px;
 
-    /* DEBUG */
     background-color: #b4d0e7;
 }
 
+    .free-trial > h2 {
+        display: flex;
+        margin-left: 400px;
+        width: 500px;
+        font-size: 2.5rem;
+        color: #61082b;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .free-trial > .button.white {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+    }
+    
 .faq {
     display: flex;
     height: 750px;
